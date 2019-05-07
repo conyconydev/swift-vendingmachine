@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554B2CF7B2B81904D76A69D3 /* Pods_VendingMachineUnitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9CFAA1D65FF3D61EC67789 /* Pods_VendingMachineUnitTest.framework */; };
+		F3056A79227AB630004EEAA0 /* performable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CDD0B022719A790064CBE2 /* performable.swift */; };
+		F3056A7B227AB761004EEAA0 /* UnitTestMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3056A7A227AB761004EEAA0 /* UnitTestMode.swift */; };
+		F3056A93228162BC004EEAA0 /* ExpirationPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3056A92228162BC004EEAA0 /* ExpirationPeriod.swift */; };
+		F32242EC224DEA2D00ADBDBA /* Soda.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F262248A755001DDA17 /* Soda.swift */; };
+		F32242ED224DEA2D00ADBDBA /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F4D224CB70C001DDA17 /* Sprite.swift */; };
+		F32242EE224DEA2D00ADBDBA /* CocaCola.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F4B224CB17C001DDA17 /* CocaCola.swift */; };
+		F32242EF224DEA2D00ADBDBA /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F212248A676001DDA17 /* Coffee.swift */; };
+		F32242F1224DEA2D00ADBDBA /* CantataCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F47224CAE96001DDA17 /* CantataCoffee.swift */; };
+		F32242F2224DEA2D00ADBDBA /* StarbucksCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F49224CB08D001DDA17 /* StarbucksCoffee.swift */; };
+		F32242F3224DEA2D00ADBDBA /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F1D22489556001DDA17 /* Milk.swift */; };
+		F32242F4224DEA2D00ADBDBA /* BananaMilk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F3F224C6D66001DDA17 /* BananaMilk.swift */; };
+		F32242F5224DEA2D00ADBDBA /* MilkFarmCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F41224C9D95001DDA17 /* MilkFarmCode.swift */; };
+		F32242F6224DEA2D00ADBDBA /* ChocolateMilk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F43224CAABD001DDA17 /* ChocolateMilk.swift */; };
+		F32242F7224DEA2D00ADBDBA /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F1B2248724E001DDA17 /* Beverage.swift */; };
+		F32242F8224DEA2D00ADBDBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DA90C1F8D1F95009E05F3 /* main.swift */; };
+		F32242F9224DEA2D00ADBDBA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F4F224CCAF8001DDA17 /* Date.swift */; };
+		F33EEC892252F6DC003C15A6 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC882252F6DC003C15A6 /* VendingMachine.swift */; };
+		F33EEC8B2252FDCF003C15A6 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC8A2252FDCF003C15A6 /* Inventory.swift */; };
+		F33EEC8D2252FF27003C15A6 /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC8C2252FF27003C15A6 /* Packages.swift */; };
+		F33EEC90225326BA003C15A6 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC8F225326BA003C15A6 /* InputView.swift */; };
+		F33EEC92225327AD003C15A6 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC91225327AD003C15A6 /* OutputView.swift */; };
+		F33EEC94225327DF003C15A6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC93225327DF003C15A6 /* Menu.swift */; };
+		F33EEC9622532B3D003C15A6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC9522532B3D003C15A6 /* History.swift */; };
+		F33EEC9A225B6410003C15A6 /* MenuScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC99225B6410003C15A6 /* MenuScript.swift */; };
+		F33EEC9B225B91C7003C15A6 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC8F225326BA003C15A6 /* InputView.swift */; };
+		F33EEC9C225B91C7003C15A6 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC91225327AD003C15A6 /* OutputView.swift */; };
+		F33EEC9D225B91C7003C15A6 /* MenuScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC99225B6410003C15A6 /* MenuScript.swift */; };
+		F33EEC9E225B91C7003C15A6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC93225327DF003C15A6 /* Menu.swift */; };
+		F33EECA0225B91C7003C15A6 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC882252F6DC003C15A6 /* VendingMachine.swift */; };
+		F33EECA1225B91C7003C15A6 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC8A2252FDCF003C15A6 /* Inventory.swift */; };
+		F33EECA2225B91C7003C15A6 /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC8C2252FF27003C15A6 /* Packages.swift */; };
+		F33EECA3225B91C7003C15A6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33EEC9522532B3D003C15A6 /* History.swift */; };
+		F3538F2F224A61D9001DDA17 /* VendingMachineUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F2E224A61D9001DDA17 /* VendingMachineUnitTest.swift */; };
+		F3538F34224A61F1001DDA17 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F212248A676001DDA17 /* Coffee.swift */; };
+		F3538F35224A61F1001DDA17 /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F1D22489556001DDA17 /* Milk.swift */; };
+		F3538F36224A61F1001DDA17 /* Soda.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F262248A755001DDA17 /* Soda.swift */; };
+		F3538F37224A61F1001DDA17 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F1B2248724E001DDA17 /* Beverage.swift */; };
+		F3538F38224A61F1001DDA17 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DA90C1F8D1F95009E05F3 /* main.swift */; };
+		F3538F51224CD2C6001DDA17 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F4D224CB70C001DDA17 /* Sprite.swift */; };
+		F3538F52224CD2C6001DDA17 /* CocaCola.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F4B224CB17C001DDA17 /* CocaCola.swift */; };
+		F3538F54224CD2C6001DDA17 /* CantataCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F47224CAE96001DDA17 /* CantataCoffee.swift */; };
+		F3538F55224CD2C6001DDA17 /* StarbucksCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F49224CB08D001DDA17 /* StarbucksCoffee.swift */; };
+		F3538F56224CD2C6001DDA17 /* BananaMilk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F3F224C6D66001DDA17 /* BananaMilk.swift */; };
+		F3538F57224CD2C6001DDA17 /* MilkFarmCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F41224C9D95001DDA17 /* MilkFarmCode.swift */; };
+		F3538F58224CD2C6001DDA17 /* ChocolateMilk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F43224CAABD001DDA17 /* ChocolateMilk.swift */; };
+		F3538F59224CD2C6001DDA17 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3538F4F224CCAF8001DDA17 /* Date.swift */; };
+		F3B5ADAA22641A8C003D94A2 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5ADA922641A8C003D94A2 /* Money.swift */; };
+		F3B5ADD82265AB9A003D94A2 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5ADA922641A8C003D94A2 /* Money.swift */; };
+		F3C5DE04224DFA4600A753FC /* UnitTestSoda.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5DE03224DFA4600A753FC /* UnitTestSoda.swift */; };
+		F3C5DE2522507EBD00A753FC /* UnitTestCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5DE2422507EBD00A753FC /* UnitTestCoffee.swift */; };
+		F3C5DE272250846100A753FC /* UnitTestMilk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5DE262250846100A753FC /* UnitTestMilk.swift */; };
+		F3CDD0B122719A790064CBE2 /* performable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CDD0B022719A790064CBE2 /* performable.swift */; };
+		FFD5CD8F19506B9E5F1377A0 /* Pods_VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBF440E0E37EC076D6D0C71 /* Pods_VendingMachine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		839DA9071F8D1F95009E05F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CBF440E0E37EC076D6D0C71 /* Pods_VendingMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		279E493AB6D7438F432C5C75 /* Pods-VendingMachineUnitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachineUnitTest.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachineUnitTest/Pods-VendingMachineUnitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4B9CFAA1D65FF3D61EC67789 /* Pods_VendingMachineUnitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachineUnitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B493D81953A636F734A2BE /* Pods-VendingMachineUnitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachineUnitTest.release.xcconfig"; path = "Target Support Files/Pods-VendingMachineUnitTest/Pods-VendingMachineUnitTest.release.xcconfig"; sourceTree = "<group>"; };
+		839DA9091F8D1F95009E05F3 /* VendingMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VendingMachine; sourceTree = BUILT_PRODUCTS_DIR; };
+		839DA90C1F8D1F95009E05F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBCF804786ACEC4676BE8E74 /* Pods-VendingMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.release.xcconfig"; sourceTree = "<group>"; };
+		E353E2295014A691F7730355 /* Pods-VendingMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		F3056A7A227AB761004EEAA0 /* UnitTestMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestMode.swift; sourceTree = "<group>"; };
+		F3056A92228162BC004EEAA0 /* ExpirationPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirationPeriod.swift; sourceTree = "<group>"; };
+		F33EEC882252F6DC003C15A6 /* VendingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
+		F33EEC8A2252FDCF003C15A6 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		F33EEC8C2252FF27003C15A6 /* Packages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packages.swift; sourceTree = "<group>"; };
+		F33EEC8F225326BA003C15A6 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F33EEC91225327AD003C15A6 /* OutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
+		F33EEC93225327DF003C15A6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F33EEC9522532B3D003C15A6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		F33EEC99225B6410003C15A6 /* MenuScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScript.swift; sourceTree = "<group>"; };
+		F3538F1B2248724E001DDA17 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		F3538F1D22489556001DDA17 /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		F3538F212248A676001DDA17 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		F3538F262248A755001DDA17 /* Soda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soda.swift; sourceTree = "<group>"; };
+		F3538F2C224A61D9001DDA17 /* VendingMachineUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendingMachineUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3538F2E224A61D9001DDA17 /* VendingMachineUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineUnitTest.swift; sourceTree = "<group>"; };
+		F3538F30224A61D9001DDA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3538F3F224C6D66001DDA17 /* BananaMilk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaMilk.swift; sourceTree = "<group>"; };
+		F3538F41224C9D95001DDA17 /* MilkFarmCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkFarmCode.swift; sourceTree = "<group>"; };
+		F3538F43224CAABD001DDA17 /* ChocolateMilk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateMilk.swift; sourceTree = "<group>"; };
+		F3538F47224CAE96001DDA17 /* CantataCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantataCoffee.swift; sourceTree = "<group>"; };
+		F3538F49224CB08D001DDA17 /* StarbucksCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksCoffee.swift; sourceTree = "<group>"; };
+		F3538F4B224CB17C001DDA17 /* CocaCola.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocaCola.swift; sourceTree = "<group>"; };
+		F3538F4D224CB70C001DDA17 /* Sprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		F3538F4F224CCAF8001DDA17 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		F3B5ADA922641A8C003D94A2 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		F3C5DE03224DFA4600A753FC /* UnitTestSoda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSoda.swift; sourceTree = "<group>"; };
+		F3C5DE2422507EBD00A753FC /* UnitTestCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestCoffee.swift; sourceTree = "<group>"; };
+		F3C5DE262250846100A753FC /* UnitTestMilk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestMilk.swift; sourceTree = "<group>"; };
+		F3CDD0B022719A790064CBE2 /* performable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = performable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839DA9061F8D1F95009E05F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD5CD8F19506B9E5F1377A0 /* Pods_VendingMachine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3538F29224A61D9001DDA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554B2CF7B2B81904D76A69D3 /* Pods_VendingMachineUnitTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510568F8AC3634A732D21083 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E353E2295014A691F7730355 /* Pods-VendingMachine.debug.xcconfig */,
+				BBCF804786ACEC4676BE8E74 /* Pods-VendingMachine.release.xcconfig */,
+				279E493AB6D7438F432C5C75 /* Pods-VendingMachineUnitTest.debug.xcconfig */,
+				82B493D81953A636F734A2BE /* Pods-VendingMachineUnitTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FED7F5E1C88B4930EE99940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CBF440E0E37EC076D6D0C71 /* Pods_VendingMachine.framework */,
+				4B9CFAA1D65FF3D61EC67789 /* Pods_VendingMachineUnitTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839DA9001F8D1F95009E05F3 = {
+			isa = PBXGroup;
+			children = (
+				839DA90B1F8D1F95009E05F3 /* VendingMachine */,
+				F3538F2D224A61D9001DDA17 /* VendingMachineUnitTest */,
+				839DA90A1F8D1F95009E05F3 /* Products */,
+				510568F8AC3634A732D21083 /* Pods */,
+				7FED7F5E1C88B4930EE99940 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		839DA90A1F8D1F95009E05F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839DA9091F8D1F95009E05F3 /* VendingMachine */,
+				F3538F2C224A61D9001DDA17 /* VendingMachineUnitTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839DA90B1F8D1F95009E05F3 /* VendingMachine */ = {
+			isa = PBXGroup;
+			children = (
+				F33EEC8E225326A2003C15A6 /* View */,
+				F3538F3C224C6B6E001DDA17 /* Soda */,
+				F3538F3B224C6B63001DDA17 /* Coffee */,
+				F3538F3A224C6B50001DDA17 /* Milk */,
+				F3538F252248A6AA001DDA17 /* Beverage */,
+				839DA90C1F8D1F95009E05F3 /* main.swift */,
+				F3538F4F224CCAF8001DDA17 /* Date.swift */,
+				F3B5ADA922641A8C003D94A2 /* Money.swift */,
+				F3056A92228162BC004EEAA0 /* ExpirationPeriod.swift */,
+				F33EEC882252F6DC003C15A6 /* VendingMachine.swift */,
+				F33EEC8A2252FDCF003C15A6 /* Inventory.swift */,
+				F33EEC8C2252FF27003C15A6 /* Packages.swift */,
+				F33EEC9522532B3D003C15A6 /* History.swift */,
+			);
+			path = VendingMachine;
+			sourceTree = "<group>";
+		};
+		F33EEC8E225326A2003C15A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F33EEC8F225326BA003C15A6 /* InputView.swift */,
+				F33EEC91225327AD003C15A6 /* OutputView.swift */,
+				F33EEC99225B6410003C15A6 /* MenuScript.swift */,
+				F3CDD0B022719A790064CBE2 /* performable.swift */,
+				F33EEC93225327DF003C15A6 /* Menu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3538F252248A6AA001DDA17 /* Beverage */ = {
+			isa = PBXGroup;
+			children = (
+				F3538F1B2248724E001DDA17 /* Beverage.swift */,
+			);
+			path = Beverage;
+			sourceTree = "<group>";
+		};
+		F3538F2D224A61D9001DDA17 /* VendingMachineUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				F3538F2E224A61D9001DDA17 /* VendingMachineUnitTest.swift */,
+				F3C5DE03224DFA4600A753FC /* UnitTestSoda.swift */,
+				F3056A7A227AB761004EEAA0 /* UnitTestMode.swift */,
+				F3C5DE2422507EBD00A753FC /* UnitTestCoffee.swift */,
+				F3C5DE262250846100A753FC /* UnitTestMilk.swift */,
+				F3538F30224A61D9001DDA17 /* Info.plist */,
+			);
+			path = VendingMachineUnitTest;
+			sourceTree = "<group>";
+		};
+		F3538F3A224C6B50001DDA17 /* Milk */ = {
+			isa = PBXGroup;
+			children = (
+				F3538F1D22489556001DDA17 /* Milk.swift */,
+				F3538F3F224C6D66001DDA17 /* BananaMilk.swift */,
+				F3538F41224C9D95001DDA17 /* MilkFarmCode.swift */,
+				F3538F43224CAABD001DDA17 /* ChocolateMilk.swift */,
+			);
+			path = Milk;
+			sourceTree = "<group>";
+		};
+		F3538F3B224C6B63001DDA17 /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				F3538F212248A676001DDA17 /* Coffee.swift */,
+				F3538F47224CAE96001DDA17 /* CantataCoffee.swift */,
+				F3538F49224CB08D001DDA17 /* StarbucksCoffee.swift */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		F3538F3C224C6B6E001DDA17 /* Soda */ = {
+			isa = PBXGroup;
+			children = (
+				F3538F262248A755001DDA17 /* Soda.swift */,
+				F3538F4D224CB70C001DDA17 /* Sprite.swift */,
+				F3538F4B224CB17C001DDA17 /* CocaCola.swift */,
+			);
+			path = Soda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839DA9081F8D1F95009E05F3 /* VendingMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839DA9101F8D1F95009E05F3 /* Build configuration list for PBXNativeTarget "VendingMachine" */;
+			buildPhases = (
+				7E11A7108BC1D1156B5D3969 /* [CP] Check Pods Manifest.lock */,
+				839DA9051F8D1F95009E05F3 /* Sources */,
+				839DA9061F8D1F95009E05F3 /* Frameworks */,
+				839DA9071F8D1F95009E05F3 /* CopyFiles */,
+				F3056A8F22814D87004EEAA0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendingMachine;
+			productName = VendingMachine;
+			productReference = 839DA9091F8D1F95009E05F3 /* VendingMachine */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3538F2B224A61D9001DDA17 /* VendingMachineUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3538F33224A61D9001DDA17 /* Build configuration list for PBXNativeTarget "VendingMachineUnitTest" */;
+			buildPhases = (
+				277C7FB7FA17E7B48C0EAEB6 /* [CP] Check Pods Manifest.lock */,
+				F3538F28224A61D9001DDA17 /* Sources */,
+				F3538F29224A61D9001DDA17 /* Frameworks */,
+				F3538F2A224A61D9001DDA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendingMachineUnitTest;
+			productName = VendingMachineUnitTest;
+			productReference = F3538F2C224A61D9001DDA17 /* VendingMachineUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839DA9011F8D1F95009E05F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = JK;
+				TargetAttributes = {
+					839DA9081F8D1F95009E05F3 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					F3538F2B224A61D9001DDA17 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 839DA9041F8D1F95009E05F3 /* Build configuration list for PBXProject "VendingMachine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839DA9001F8D1F95009E05F3;
+			productRefGroup = 839DA90A1F8D1F95009E05F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839DA9081F8D1F95009E05F3 /* VendingMachine */,
+				F3538F2B224A61D9001DDA17 /* VendingMachineUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3538F2A224A61D9001DDA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277C7FB7FA17E7B48C0EAEB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendingMachineUnitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E11A7108BC1D1156B5D3969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendingMachine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3056A8F22814D87004EEAA0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839DA9051F8D1F95009E05F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32242EC224DEA2D00ADBDBA /* Soda.swift in Sources */,
+				F32242ED224DEA2D00ADBDBA /* Sprite.swift in Sources */,
+				F32242EE224DEA2D00ADBDBA /* CocaCola.swift in Sources */,
+				F32242EF224DEA2D00ADBDBA /* Coffee.swift in Sources */,
+				F33EEC892252F6DC003C15A6 /* VendingMachine.swift in Sources */,
+				F3B5ADAA22641A8C003D94A2 /* Money.swift in Sources */,
+				F32242F1224DEA2D00ADBDBA /* CantataCoffee.swift in Sources */,
+				F32242F2224DEA2D00ADBDBA /* StarbucksCoffee.swift in Sources */,
+				F33EEC8B2252FDCF003C15A6 /* Inventory.swift in Sources */,
+				F33EEC9622532B3D003C15A6 /* History.swift in Sources */,
+				F3CDD0B122719A790064CBE2 /* performable.swift in Sources */,
+				F32242F3224DEA2D00ADBDBA /* Milk.swift in Sources */,
+				F32242F4224DEA2D00ADBDBA /* BananaMilk.swift in Sources */,
+				F33EEC8D2252FF27003C15A6 /* Packages.swift in Sources */,
+				F32242F5224DEA2D00ADBDBA /* MilkFarmCode.swift in Sources */,
+				F3056A93228162BC004EEAA0 /* ExpirationPeriod.swift in Sources */,
+				F32242F6224DEA2D00ADBDBA /* ChocolateMilk.swift in Sources */,
+				F33EEC94225327DF003C15A6 /* Menu.swift in Sources */,
+				F32242F7224DEA2D00ADBDBA /* Beverage.swift in Sources */,
+				F33EEC90225326BA003C15A6 /* InputView.swift in Sources */,
+				F33EEC92225327AD003C15A6 /* OutputView.swift in Sources */,
+				F32242F8224DEA2D00ADBDBA /* main.swift in Sources */,
+				F33EEC9A225B6410003C15A6 /* MenuScript.swift in Sources */,
+				F32242F9224DEA2D00ADBDBA /* Date.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3538F28224A61D9001DDA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3056A79227AB630004EEAA0 /* performable.swift in Sources */,
+				F3B5ADD82265AB9A003D94A2 /* Money.swift in Sources */,
+				F33EEC9B225B91C7003C15A6 /* InputView.swift in Sources */,
+				F33EEC9C225B91C7003C15A6 /* OutputView.swift in Sources */,
+				F33EEC9D225B91C7003C15A6 /* MenuScript.swift in Sources */,
+				F33EEC9E225B91C7003C15A6 /* Menu.swift in Sources */,
+				F33EECA0225B91C7003C15A6 /* VendingMachine.swift in Sources */,
+				F33EECA1225B91C7003C15A6 /* Inventory.swift in Sources */,
+				F33EECA2225B91C7003C15A6 /* Packages.swift in Sources */,
+				F33EECA3225B91C7003C15A6 /* History.swift in Sources */,
+				F3538F51224CD2C6001DDA17 /* Sprite.swift in Sources */,
+				F3538F52224CD2C6001DDA17 /* CocaCola.swift in Sources */,
+				F3056A7B227AB761004EEAA0 /* UnitTestMode.swift in Sources */,
+				F3538F54224CD2C6001DDA17 /* CantataCoffee.swift in Sources */,
+				F3C5DE04224DFA4600A753FC /* UnitTestSoda.swift in Sources */,
+				F3538F55224CD2C6001DDA17 /* StarbucksCoffee.swift in Sources */,
+				F3538F56224CD2C6001DDA17 /* BananaMilk.swift in Sources */,
+				F3538F57224CD2C6001DDA17 /* MilkFarmCode.swift in Sources */,
+				F3538F58224CD2C6001DDA17 /* ChocolateMilk.swift in Sources */,
+				F3538F59224CD2C6001DDA17 /* Date.swift in Sources */,
+				F3538F34224A61F1001DDA17 /* Coffee.swift in Sources */,
+				F3C5DE2522507EBD00A753FC /* UnitTestCoffee.swift in Sources */,
+				F3C5DE272250846100A753FC /* UnitTestMilk.swift in Sources */,
+				F3538F35224A61F1001DDA17 /* Milk.swift in Sources */,
+				F3538F36224A61F1001DDA17 /* Soda.swift in Sources */,
+				F3538F37224A61F1001DDA17 /* Beverage.swift in Sources */,
+				F3538F38224A61F1001DDA17 /* main.swift in Sources */,
+				F3538F2F224A61D9001DDA17 /* VendingMachineUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		839DA90E1F8D1F95009E05F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839DA90F1F8D1F95009E05F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		839DA9111F8D1F95009E05F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E353E2295014A691F7730355 /* Pods-VendingMachine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8TCDCU769;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		839DA9121F8D1F95009E05F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCF804786ACEC4676BE8E74 /* Pods-VendingMachine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8TCDCU769;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F3538F31224A61D9001DDA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279E493AB6D7438F432C5C75 /* Pods-VendingMachineUnitTest.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L8TCDCU769;
+				INFOPLIST_FILE = VendingMachineUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "elena-kr.VendingMachineUnitTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F3538F32224A61D9001DDA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B493D81953A636F734A2BE /* Pods-VendingMachineUnitTest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L8TCDCU769;
+				INFOPLIST_FILE = VendingMachineUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "elena-kr.VendingMachineUnitTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839DA9041F8D1F95009E05F3 /* Build configuration list for PBXProject "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839DA90E1F8D1F95009E05F3 /* Debug */,
+				839DA90F1F8D1F95009E05F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839DA9101F8D1F95009E05F3 /* Build configuration list for PBXNativeTarget "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839DA9111F8D1F95009E05F3 /* Debug */,
+				839DA9121F8D1F95009E05F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3538F33224A61D9001DDA17 /* Build configuration list for PBXNativeTarget "VendingMachineUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3538F31224A61D9001DDA17 /* Debug */,
+				F3538F32224A61D9001DDA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839DA9011F8D1F95009E05F3 /* Project object */;
+}
