@@ -2,7 +2,7 @@
 
 - [swift-vendingmachine](#swift-vendingmachine)
     - [음료 클래스 설계](#%EC%9D%8C%EB%A3%8C-%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%84%A4%EA%B3%84)
-    - [시나리오 :](#%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4)
+    - [실행결과 :](#%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4)
     - [SwiftLint](#swiftlint)
 
 ### 음료 클래스 설계
@@ -13,7 +13,7 @@
 
 ----
 
-### 시나리오 : 
+### 실행결과 : 
 * 관리자 모드 : 
 
     <img src="./img/Manager01.png" width="200" style="max-width:100%;">  
