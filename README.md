@@ -15,26 +15,44 @@
 
 ### 시나리오 : 
 * 관리자 모드 : 
-    <img src="./img/Manager01.png" width="200" style="max-width:100%;">
-    * 관리자 모드에서 재고 추가
-    <img src="./img/Manager02.png" width="200" style="max-width:100%;">
+
+    <img src="./img/Manager01.png" width="200" style="max-width:100%;">  
+    
+    * 관리자 모드에서 재고 추가  
+    
+        <img src="./img/Manager02.png" width="200" style="max-width:100%;">  
+    
     * 관리자 모드에서 재고 삭제
-    <img src="./img/Manager03.png" width="200" style="max-width:100%;">
+    
+        <img src="./img/Manager03.png" width="200" style="max-width:100%;">
+    
     * 관리자 모드에서 기한 만료 재고 삭제
-    <img src="./img/Manager04.png" width="200" style="max-width:100%;">
+    
+        <img src="./img/Manager04.png" width="200" style="max-width:100%;">
+    
 ----
+
   * 사용자 모드 : 
+  
       <img src="./img/Customer02.png" width="200" style="max-width:100%;">
+      
       * 사용자 모드에서 금액 1500 추가 
-      <img src="./img/Customer03.png" width="200" style="max-width:100%;">
+      
+        <img src="./img/Customer03.png" width="200" style="max-width:100%;">
+      
       * 사용자 모드에서 음료 구매시 잘못 입력하였을때 안내 문구
-      <img src="./img/Customer04.png" width="200" style="max-width:100%;">
+      
+        <img src="./img/Customer04.png" width="200" style="max-width:100%;">
+      
       * 사용자 모드에서 음료 구매
-      <img src="./img/Customer01.png" width="200" style="max-width:100%;">
+      
+         <img src="./img/Customer01.png" width="200" style="max-width:100%;">
 
     
   ----  
+  
 ### SwiftLint
+
 * SwiftLint 적용 : 
   * CocoaPods 설치하고 Xcode 나의 프로젝트에 적용하기 : 
   https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/ios/2019-05-07-CocoaPodsUseXcode.md
